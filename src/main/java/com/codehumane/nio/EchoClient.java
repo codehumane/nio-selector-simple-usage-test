@@ -16,7 +16,8 @@ public class EchoClient {
     private static EchoClient instance;
 
     public static EchoClient start() {
-        if (Objects.isNull(instance)) instance = new EchoClient();
+        if (Objects.isNull(instance))
+            instance = new EchoClient();
         return instance;
     }
 
